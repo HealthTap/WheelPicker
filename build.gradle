@@ -16,3 +16,6 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+android {
+    buildToolsVersion '25.0.0'
+}
